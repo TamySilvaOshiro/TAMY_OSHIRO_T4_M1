@@ -1,0 +1,103 @@
+h1 {
+    color: rgb(250, 180, 5);
+    text-align: center;
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+h2{
+    color:  darkgreen;
+    background-color: rgb(250, 180, 5);
+}
+
+h3{
+    color: rgb(250, 180, 5);
+}
+
+p{
+    color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-image: url(../assets/img/design1_image1.jpg) ;
+    min-height: 50vh;
+    background-size: cover;
+}
+
+nav{
+    background-color:  rgb(250, 180, 5);
+    min-height: 5vh;
+    padding: 1rem;
+}
+
+a{
+    display: inline-block;
+    width: 15rem;
+    height: 3rem;
+    color: rgb(225, 25, 25);
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 1rem;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: bolder;
+}
+
+a:hover{
+    background-color: rgb(225, 25, 25);
+    color: gray;
+}
+
+a:active{
+    background-color: darkgreen;
+}
+
+main{
+    background-color: gray;
+    min-height: 80vh;
+    padding: 1rem;
+}
+
+main>h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+section{
+    background-color: darkgreen;
+    display: inline-block;
+    border-radius: 1rem;
+    box-shadow: 5px 5px rgba(238, 27, 27, 0.358);
+    box-sizing: border-box;
+    margin: 20%;
+    padding: 10%;
+    border: 5px solid rgb(250, 180, 5);
+}
+
+section img{
+    width: 250px ;
+}
+
+table, th, th{
+    background-color: darkgreen;
+    border-collapse: collapse;
+    border-bottom: 1px solid;
+    margin: 25px 0;
+    font-size: 1rem;
+    min-width: 300px;
+    padding: 12px 15px;
+    border: 5px solid rgb(250, 180, 5);
+}
+
